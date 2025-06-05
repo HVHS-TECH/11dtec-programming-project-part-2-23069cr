@@ -14,7 +14,7 @@ function start() {
     alert("Here you go")
   } 
 if (club == "No" || club == "no") {
-  alert("Aww man")
+  alert("I won't be able to feed my kids tonight thanks to you.")
 }
 }
 
