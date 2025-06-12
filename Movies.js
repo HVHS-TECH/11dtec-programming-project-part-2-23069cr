@@ -5,7 +5,7 @@ let comedy = ["Ace Ventura: Pet Detective", "The Mask", "The Cable Guy", "Dumb a
 let romcom = ["Pretty Woman", "The Proposal", "Love Actually", "Some Like It Hot", "Just like Heaven", "Crazy , Stupid, Love", "10 Thing I Hate About You"];
 let Horror = ["Child's Play", "IT", "Friday The 13th", "Nightmare On Elm Street", "Saw", "Halloween", "The Texas Chainsaw Massacre"];
 let fanatsy = ["Harry Potter and the Prisoner of Azkaban", "The Lord of the Rings: The Fellowship of the Ring", "Labyrinth", "The Never Ending Story", "Wicked", "The World's End", "How To Train Your Dragon"];
-let familyfriendly = ["Scooby Doo", "Shrek", "The Lion King", "How The Grinch Stole Christmas", "Paddington", "Frozen", "Top Gun"];
+let familyfriendly = ["Scooby Doo", "Shrek", "The Lion King", "How The Grinch Stole Christmas", "Paddington", "Frozen", "Spider-Man: Into The Spider-Verse"];
   var userMovie = prompt("What movie do you need?");
 
   while (userMovie == null || userMovie == "" || userMovie == " ") {
