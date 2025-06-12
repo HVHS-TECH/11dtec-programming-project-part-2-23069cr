@@ -24,7 +24,7 @@ while (userGenre == null || userGenre == "" || userGenre == " ") {
     userMovieAction = prompt("Either you typed the name incorrectly or we don't have that movie, please choose one of these here action movies" +action)
   }
     while (userMovieAction == null || userMovieAction == "" || userMovieAction == " ") {
-    userMovieAction = prompt("Please enter a movie. \n What movie do you need?");
+    userMovieAction = prompt("Please enter a movie. \n What movie do you need?" +action);
   }
 /*
   action ends
