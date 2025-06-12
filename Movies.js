@@ -16,9 +16,9 @@ while (userGenre == null || userGenre == "" || userGenre == " ") {
   }
 
   if (userMovie == "Terminator" || userMovie == "John Wick" || userMovie == "Transformers" || userMovie == "Die Hard" || userMovie == "Bad Boys" || userMovie == "Commando" || userMovie == "Top Gun"){
-    userMovie = alert("You are now renting" +userMovie+)
+    userMovie = alert("You are now renting" +userMovie)
   } else {
-    UserMovie = prompt("Either you typed the name incorrectly or we don't have that movie, please choose one of these here action movies" +action)
+    userMovie = prompt("Either you typed the name incorrectly or we don't have that movie, please choose one of these here action movies" +action)
   }
 
     while (userMovie == null || userMovie == "" || userMovie == " ") {
