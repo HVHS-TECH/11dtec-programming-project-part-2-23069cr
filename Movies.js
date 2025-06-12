@@ -11,21 +11,25 @@ while (userGenre == null || userGenre == "" || userGenre == " ") {
     userGenre = prompt("Please enter a genre. \n What genre do you need?" +genre);
   }
 
+  /*
+  Action starting
+  */
   if (userGenre == "Action"){
-    userMovie = prompt("Great what action movie would you like? Choose from here" +action)
+    userMovieAction = prompt("Great what action movie would you like? Choose from here" +action)
   }
 
-  if (userMovie == "Terminator" || userMovie == "John Wick" || userMovie == "Transformers" || userMovie == "Die Hard" || userMovie == "Bad Boys" || userMovie == "Commando" || userMovie == "Top Gun"){
-    userMovie = alert("You are now renting" +userMovie)
+  if (userMovieAction == "Terminator" || userMovieAction == "John Wick" || userMovieAction == "Transformers" || userMovieAction == "Die Hard" || userMovieAction == "Bad Boys" || userMovieAction == "Commando" || userMovieAction == "Top Gun"){
+    userMovieAction = alert("You are now renting" +userMovieAction)
   } else {
-    userMovie = prompt("Either you typed the name incorrectly or we don't have that movie, please choose one of these here action movies" +action)
+    userMovieAction = prompt("Either you typed the name incorrectly or we don't have that movie, please choose one of these here action movies" +action)
   }
-
-    while (userMovie == null || userMovie == "" || userMovie == " ") {
-    userMovie = prompt("Please enter a movie. \n What movie do you need?");
+    while (userMovieAction == null || userMovieAction == "" || userMovieAction == " ") {
+    userMovieAction = prompt("Please enter a movie. \n What movie do you need?");
   }
-
- alert("You are now renting " + userMovie + "\n Price: " )
+/*
+  action ends
+*/
+ 
 
   var club = prompt("Would you like a Club Penguin membership card to go along with your purchase?\nYes or no")
 
