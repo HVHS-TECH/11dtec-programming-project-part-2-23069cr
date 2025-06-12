@@ -21,12 +21,10 @@ while (userGenre == null || userGenre == "" || userGenre == " ") {
   if (userMovieAction == "Terminator" || userMovieAction == "John Wick" || userMovieAction == "Transformers" || userMovieAction == "Die Hard" || userMovieAction == "Bad Boys" || userMovieAction == "Commando" || userMovieAction == "Top Gun"){
     userMovieAction = alert("You are now renting" +userMovieAction)
   } 
-  if (userMovieAction != "Terminator" || userMovieAction != "John Wick" || userMovieAction != "Transformers" || userMovieAction != "Die Hard" || userMovieAction != "Bad Boys" || userMovieAction != "Commando" || userMovieAction != "Top Gun"){
+  while (userMovieAction != "Terminator" || userMovieAction != "John Wick" || userMovieAction != "Transformers" || userMovieAction != "Die Hard" || userMovieAction != "Bad Boys" || userMovieAction != "Commando" || userMovieAction != "Top Gun" || userMovieAction == null || userMovieAction == "" || userMovieAction == " "){
     userMovieAction = prompt("Either you typed the name incorrectly or we don't have that movie, please choose one of these here action movies." +action)
   }
-    while (userMovieAction == null || userMovieAction == "" || userMovieAction == " ") {
-    userMovieAction = prompt("Please enter a movie. \n What movie do you need?" +action);
-  }
+
 /*
   action ends
 */
