@@ -10,6 +10,7 @@ let familyfriendly = ["Scooby Doo", "Shrek", "The Lion King", "How The Grinch St
 while (userGenre == null || userGenre == "" || userGenre == " ") {
     userGenre = prompt("Please enter a genre. \n What genre do you need?" +genre);
   }
+  if (userGenre == "Action" || userGenre == "Comedy" || userGenre== "RomCom" || userGenre == "Horror" || userGenre == "Fantasy" || userGenre == "Family Friendly")
   while (userMovie == null || userMovie == "" || userMovie == " ") {
     userMovie = prompt("Please enter a movie. \n What movie do you need?");
   }
