@@ -11,6 +11,7 @@ let familyfriendly = ["Scooby Doo", "Shrek", "The Lion King", "How The Grinch St
   while (userMovie == null || userMovie == "" || userMovie == " ") {
     userMovie = prompt("Please enter a movie. \n What movie do you need?");
   }
+  
  alert("You are now renting " + userMovie + "\n Price: " )
 
   var club = prompt("Would you like a Club Penguin membership card to go along with your purchase?\nYes or no")
