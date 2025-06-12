@@ -2,8 +2,14 @@ function start() {
   var userGame = prompt("What Videogame do you need?");
 
   while (userGame == null || userGame =="" || userGame == " ") {
-    userMovie = prompt("Please enter a Videogame. \n What Videogame do you need?");
+    userGame = prompt("Please enter a Videogame. \n What Videogame do you need?");
   }
+    if (userGame == "Fortnite" || userGame == "fortnite"){
+    alert("You look like the type of guy who plays that")
+    }
+     if (userGame == "War Thunder" || userGame == "War thunder" || userGame == "war Thunder" || userGame == "war thunder"){
+    alert("Josh this is an intervention")
+    }
   alert("You are now renting " + userGame)
   var club = prompt("Would you like a Club Penguin membership card to go along with your purchase?\nYes or no")
 
