@@ -10,10 +10,16 @@ let familyfriendly = ["Scooby Doo", "Shrek", "The Lion King", "How The Grinch St
 while (userGenre == null || userGenre == "" || userGenre == " ") {
     userGenre = prompt("Please enter a genre. \n What genre do you need?" +genre);
   }
+
   if (userGenre == "Action"){
     userMovie = prompt("Great what action movie would you like? Choose from here" +action)
   }
 
+  if (userMovie == "Terminator" || userMovie == "John Wick" || userMovie == "Transformers" || userMovie == "Die Hard" || userMovie == "Bad Boys" || userMovie == "Commando" || userMovie == "Top Gun"){
+    userMovie = alert("You are now renting" +userMovie+)
+  } else {
+    UserMovie = prompt("Either you typed the name incorrectly or we don't have that movie, please choose one of these here action movies" +action)
+  }
 
     while (userMovie == null || userMovie == "" || userMovie == " ") {
     userMovie = prompt("Please enter a movie. \n What movie do you need?");
