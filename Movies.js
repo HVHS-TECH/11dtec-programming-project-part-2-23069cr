@@ -14,17 +14,20 @@ while (userGenre == null || userGenre == "" || userGenre == " ") {
   /*
   Action starting
   */
+var userMovieAction = ""
+  console.log(userMovieAction)
   if (userGenre == "Action"){
     userMovieAction = prompt("Great what action movie would you like? Choose from here" +action)
   }
-
-  if (userMovieAction == "Terminator" || userMovieAction == "John Wick" || userMovieAction == "Transformers" || userMovieAction == "Die Hard" || userMovieAction == "Bad Boys" || userMovieAction == "Commando" || userMovieAction == "Top Gun"){
-    userMovieAction = alert("You are now renting" +userMovieAction)
-  } 
-  while (userMovieAction != "Terminator" || userMovieAction != "John Wick" || userMovieAction != "Transformers" || userMovieAction != "Die Hard" || userMovieAction != "Bad Boys" || userMovieAction != "Commando" || userMovieAction != "Top Gun" || userMovieAction == null || userMovieAction == "" || userMovieAction == " "){
+   console.log("first ask result: " + userMovieAction)
+  while (userMovieAction !== "Terminator" && userMovieAction !== "John Wick" && userMovieAction !== "Transformers" && userMovieAction !== "Die Hard" && userMovieAction !== "Bad Boys" && userMovieAction !== "Commando" && userMovieAction !== "Top Gun" || userMovieAction == null || userMovieAction == "" || userMovieAction == " "){
     userMovieAction = prompt("Either you typed the name incorrectly or we don't have that movie, please choose one of these here action movies." +action)
+    console.log("while trap: " + userMovieAction)
   }
-
+  console.log("Checking: " + userMovieAction)
+if (userMovieAction == "Terminator" || userMovieAction == "John Wick" || userMovieAction == "Transformers" || userMovieAction == "Die Hard" || userMovieAction == "Bad Boys" || userMovieAction == "Commando" || userMovieAction == "Top Gun"){
+    userMovieAction = alert("You are now renting" +userMovieAction)
+  }
 /*
   action ends
 */
