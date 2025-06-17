@@ -15,7 +15,7 @@ let familyfriendly = [" Scooby Doo", "Shrek", "The Lion King", "How The Grinch S
   /*
   Action starting
   */
-var userMovie = prompt("What movie do you need? \n Action:" +action+ "\n Comedy:" +comedy+ "\nRomCom:" +romcom+ "\nHorror:" +Horror+ "\nFantasy:" +fantasy+ "\nFamily Friendly" +familyfriendly)
+var userMovie = prompt("What movie do you need? \n Action:" +action+ "\n Comedy:" +comedy+ "\n RomCom:" +romcom+ "\n Horror:" +Horror+ "\n Fantasy:" +fantasy+ "\n Family Friendly" +familyfriendly)
 while (userMovie == null || userMovie == "" || userMovie == " ") {
     userGenre = prompt("Please enter a movie");
   }
