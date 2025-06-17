@@ -22,7 +22,7 @@ while (userMovie == null || userMovie == "" || userMovie == " ") {
    console.log("first ask result: " + userMovie)
   while (userMovie !== "Terminator" && userMovie !== "John Wick" && userMovie !== "Transformers" && userMovie !== "Die Hard" && userMovie !== "Bad Boys" && userMovie !== "Commando" && userMovie !== "Top Gun" && userMovie !== "Ace Ventura: Pet Detective" && userMovie !== "The Mask" && userMovie !== "The Cable Guy" && userMovie !== "Dumb and Dumber" && userMovie !== "Lair Lair" && userMovie !== "Me, Myself and Irene" && userMovie !== "Bruce Almighty" && userMovie == null || userMovie == "" || userMovie == " "){
     userMovie = prompt("Either you typed the name incorrectly or we don't have that movie, please choose one of these here action movies." +action)
-    console.log("while trap: " + userMovien)
+    console.log("while trap: " + userMovie)
   }
   console.log("Checking: " + userMovie)
 if (userMovie == "Terminator" || userMovie == "John Wick" || userMovie == "Transformers" || userMovie == "Die Hard" || userMovie == "Bad Boys" || userMovie == "Commando" || userMovie == "Top Gun"){
