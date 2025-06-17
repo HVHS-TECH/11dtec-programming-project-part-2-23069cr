@@ -26,10 +26,10 @@ while (userMovie == null || userMovie == "" || userMovie == " ") {
   }
   console.log("Checking: " + userMovie)
 if (userMovie == "Terminator" || userMovie == "John Wick" || userMovie == "Transformers" || userMovie == "Die Hard" || userMovie == "Bad Boys" || userMovie == "Commando" || userMovie == "Top Gun"){
-    userMovie = alert("You are now renting the action movie" +userMovie)
+    userMovie = alert("You are now renting the action movie" + userMovie)
   }
   if (userMovie == "Ace Ventura: Pet Detective" || userMovie == "The Mask" || userMovie == "The Cable Guy" || userMovie == "Dumb and Dumber" || userMovie == "Lair Lair" || userMovie == "Me, Myself and Irene" || userMovie == "Bruce Almighty"){
-    userMovie = alert("You are now renting the comedy movie" +userMovie)
+    userMovie = alert("You are now renting the comedy movie" + userMovie)
   }
 /*
   action ends
