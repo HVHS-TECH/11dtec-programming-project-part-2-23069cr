@@ -26,10 +26,13 @@ while (userMovie == null || userMovie == "" || userMovie == " ") {
   }
   console.log("Checking: " + userMovie)
 if (userMovie == "Terminator" || userMovie == "John Wick" || userMovie == "Transformers" || userMovie == "Die Hard" || userMovie == "Bad Boys" || userMovie == "Commando" || userMovie == "Top Gun"){
-    userMovie = alert("You are now renting the action movie" + userMovie)
+    userMovie = alert("You are now renting the action movie: \n" + userMovie)
   }
-  if (userMovie == "Ace Ventura: Pet Detective" || userMovie == "The Mask" || userMovie == "The Cable Guy" || userMovie == "Dumb and Dumber" || userMovie == "Lair Lair" || userMovie == "Me, Myself and Irene" || userMovie == "Bruce Almighty"){
-    userMovie = alert("You are now renting the comedy movie" + userMovie)
+if (userMovie == "Ace Ventura: Pet Detective" || userMovie == "The Mask" || userMovie == "The Cable Guy" || userMovie == "Dumb and Dumber" || userMovie == "Lair Lair" || userMovie == "Me, Myself and Irene" || userMovie == "Bruce Almighty"){
+    userMovie = alert("You are now renting the comedy movie: \n" +userMovie)
+  }
+if (userMovie == "Pretty Woman" || userMovie == "The Proposal" || userMovie == "Love Actually" || userMovie == "Some Like It Hot" || userMovie == "Just like Heaven" || userMovie == "Crazy, Stupid, Love" || userMovie == "10 Thing I Hate About You"){
+    userMovie = alert("You are now renting the comedy movie: \n" +userMovie)
   }
 /*
   action ends
@@ -44,7 +47,7 @@ if (userMovie == "Terminator" || userMovie == "John Wick" || userMovie == "Trans
     club = prompt("Decide, yes or no");
   }
   if (club == "Yes" || club == "yes"){
-    alert("Here you go \n Price: " + price)
+    alert("Here you go \n Price: ")
   } 
 if (club == "No" || club == "no") {
   alert("I won't be able to feed my kids tonight thanks to you.")
