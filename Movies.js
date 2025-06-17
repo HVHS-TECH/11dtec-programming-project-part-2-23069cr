@@ -15,8 +15,8 @@ let familyfriendly = [" Scooby Doo", "Shrek", "The Lion King", "How The Grinch S
   /*
   Action starting
   */
-var userMovie = prompt("What movie do you need? \n Action:" +action+ "\n Comedy:" +comedy+ "\n RomCom:" +romcom+ "\n Horror:" +Horror+ "\n Fantasy:" +fantasy+ "\n Family Friendly" +familyfriendly)
-while (userMovie == null || userMovie == "" || userMovie == " ") {
+var userMovie = prompt("What movie do you need? \nAction:" +action+ "\nComedy:" +comedy);
+while (userMovie == null || userMovie == "" || userMovie == " "){
     userGenre = prompt("Please enter a movie");
   }
    console.log("first ask result: " + userMovie)
