@@ -11,6 +11,8 @@ let actionPrice = 15;
 let comedyPrice = 10;
 let romcomPrice = 2;
 let horrorPrice = 20;
+let fantasyPrice = 5;
+let familyFriendlyPrice = 8;
 
 
 
