@@ -22,15 +22,22 @@ var userMovie = prompt("What movie do you need? \n \nAction:" +action+ "\n \nCom
     userMovie = prompt("Either you typed the name incorrectly or we don't have that movie, please choose one of these here movies.\n \nAction:" +action+ "\n \nComedy:" +comedy+ "\n \nRomCom:" +romcom+ "\n \nHorror:" +Horror+ "\n \nFantasy:" +fantasy+ "\n \nFamily Friendly" +familyfriendly)
     console.log("while trap: " + userMovie)
   }
+
   console.log("Checking: " + userMovie)
 if (userMovie == "Terminator" || userMovie == "John Wick" || userMovie == "Transformers" || userMovie == "Die Hard" || userMovie == "Bad Boys" || userMovie == "Commando" || userMovie == "Top Gun"){
     userMovie = alert("You are now renting the action movie: \n" + userMovie)
   }
+
 if (userMovie == "Ace Ventura: Pet Detective" || userMovie == "The Mask" || userMovie == "The Cable Guy" || userMovie == "Dumb and Dumber" || userMovie == "Lair Lair" || userMovie == "Me, Myself and Irene" || userMovie == "Bruce Almighty"){
     userMovie = alert("You are now renting the comedy movie: \n" +userMovie)
   }
+
 if (userMovie == "Pretty Woman" || userMovie == "The Proposal" || userMovie == "Love Actually" || userMovie == "Some Like It Hot" || userMovie == "Just like Heaven" || userMovie == "Crazy, Stupid, Love" || userMovie == "10 Thing I Hate About You"){
-    userMovie = alert("You are now renting the comedy movie: \n" +userMovie)
+    userMovie = alert("You are now renting the RomCom movie: \n" +userMovie)
+  }
+
+if (userMovie == "Child's Play" || userMovie == "IT" || userMovie == "Friday The 13th" || userMovie == "Some Like It Hot" || userMovie == "Just like Heaven" || userMovie == "Crazy, Stupid, Love" || userMovie == "10 Thing I Hate About You"){
+    userMovie = alert("You are now renting the Horror movie: \n" +userMovie)
   }
 /*
   action ends
