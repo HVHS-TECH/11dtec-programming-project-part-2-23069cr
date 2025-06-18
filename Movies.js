@@ -1,6 +1,6 @@
 function start() {
   let genre = [" Action", " Comedy", " RomCom", " Horror", " Fantasy", " Family Friendly"]
-  let action = [" Terminator", " John Wick", " Transformers", " Die Hard", " Bad Boys", " Commando", " Top Gun"];
+  let action = ["Terminator", "John Wick", "Transformers", "Die Hard", "Bad Boys", "Commando", "Top Gun"];
   let comedy = [" Ace Ventura: Pet Detective", " The Mask", " The Cable Guy", " Dumb and Dumber", " Lair Lair", " Me, Myself and Irene", " Bruce Almighty"];
   let romcom = [" Pretty Woman", " The Proposal", " Love Actually", " Some Like It Hot", " Just like Heaven", " Crazy, Stupid, Love", " 10 Thing I Hate About You"];
   let horror = [" Child's Play", " IT", " Friday The 13th", " Nightmare On Elm Street", " Saw", " Halloween", " The Texas Chainsaw Massacre"];
