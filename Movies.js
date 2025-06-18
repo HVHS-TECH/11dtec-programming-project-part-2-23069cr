@@ -21,7 +21,7 @@ function start() {
   /*
   Action starting
   */
-  var userMovie = prompt("What movie do you need? \n \nAction:" + action + "\n \nComedy:" + comedy + "\n \nRomCom:" + romcom + "\n \nHorror:" + horror + "\n \nFantasy:" + fantasy + "\n \nFamily Friendly:" + familyfriendly);
+  var userMovie = prompt("What movie do you want? \n \nAction: " + action + "\n \nComedy: " + comedy + "\n \nRomCom: " + romcom + "\n \nHorror: " + horror + "\n \nFantasy: " + fantasy + "\n \nFamily Friendly: " + familyfriendly);
 
   console.log("first ask result: " + userMovie)
   while (userMovie !== "Terminator" && userMovie !== "John Wick" && userMovie !== "Transformers" && userMovie !== "Die Hard" && userMovie !== "Bad Boys" && userMovie !== "Commando" && userMovie !== "Top Gun" && userMovie !== "Ace Ventura: Pet Detective" && userMovie !== "The Mask" && userMovie !== "The Cable Guy" && userMovie !== "Dumb and Dumber" && userMovie !== "Lair Lair" && userMovie !== "Me, Myself and Irene" && userMovie !== "Bruce Almighty" && userMovie == null || userMovie == "" || userMovie == " ") {
