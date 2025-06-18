@@ -30,7 +30,7 @@ var userMovie = prompt("What movie do you need? \n \nAction:" +action+ "\n \nCom
   }
 
   console.log("Checking: " + userMovie)
-if (){
+if (action.includes(userMovie)){
     userMovie = alert("You are now renting the action movie: \n" +userMovie+ "\nPrice:" +actionPrice) 
   }
 
