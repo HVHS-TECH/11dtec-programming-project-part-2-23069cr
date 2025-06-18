@@ -36,7 +36,7 @@ if (userMovie == "Pretty Woman" || userMovie == "The Proposal" || userMovie == "
     userMovie = alert("You are now renting the RomCom movie: \n" +userMovie)
   }
 
-if (userMovie == "Child's Play" || userMovie == "IT" || userMovie == "Friday The 13th" || userMovie == "Some Like It Hot" || userMovie == "Just like Heaven" || userMovie == "Crazy, Stupid, Love" || userMovie == "10 Thing I Hate About You"){
+if (userMovie == "Child's Play" || userMovie == "IT" || userMovie == "Friday The 13th" || userMovie == "Nightmare On Elm Street" || userMovie == "Saw" || userMovie == "Halloween" || userMovie == "The Texas Chainsaw Massacre"){
     userMovie = alert("You are now renting the Horror movie: \n" +userMovie)
   }
 /*
