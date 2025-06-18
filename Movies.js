@@ -29,9 +29,9 @@ function start() {
     console.log("while trap: " + userMovie)
   }
 
-  console.log("Checking: " + userMovie)
+  console.log("Checking: " + userMovie);
   if (action.includes(userMovie)) {
-    userMovie = alert("You are now renting the action movie: \n" + userMovie + "\nPrice:" + actionPrice)
+    alert("You are now renting the action movie: \n" + userMovie + "\nPrice:" + actionPrice);
   }
 
   if (userMovie == "Ace Ventura: Pet Detective" || userMovie == "The Mask" || userMovie == "The Cable Guy" || userMovie == "Dumb and Dumber" || userMovie == "Lair Lair" || userMovie == "Me, Myself and Irene" || userMovie == "Bruce Almighty") {
@@ -52,7 +52,7 @@ function start() {
 
 
 
- 
+
 }
 
 /*
