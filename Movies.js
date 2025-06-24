@@ -6,7 +6,6 @@ function start() {
   let horror = ["Child's Play", "IT", "Friday The 13th", "Nightmare On Elm Street", "Saw", "Halloween", "The Texas Chainsaw Massacre"];
   let fantasy = ["Harry Potter and the Prisoner of Azkaban", "The Lord of the Rings: The Fellowship of the Ring", " Labyrinth", "The Never Ending Story", "Wicked", "The World's End", "How To Train Your Dragon"];
   let familyfriendly = ["Scooby Doo", "Shrek", "The Lion King", "How The Grinch Stole Christmas", "Paddington", "Frozen", "Spider-Man: Into The Spider-Verse"];
-userPrice = 0;
   let actionPrice = 15;
   let comedyPrice = 10;
   let romcomPrice = 2;
@@ -51,20 +50,9 @@ userPrice = 0;
   }
 
   if (familyfriendly.includes(userMovie)) {
-    userMovie = alert("You are now renting the Horror movie: \n" + userMovie + "\nPrice:" +familyFriendlyPrice);
+    userMovie = alert("You are now renting the Family Friendly movie: \n" + userMovie + "\nPrice:" +familyFriendlyPrice);
   }
-
-  var club = prompt("Would you like a Club Penguin membership card to go along with your purchase? It's only an extra $5\nYes or no");
-
-  while (club == null || club =="" || club == " ") {
-    club = prompt("Decide, yes or no");
-  }
-  if (club == "Yes" || club == "yes"){
-    alert("Here you go \nrice:" +);
-  } 
-if (club == "No" || club == "no") {
-  alert("I won't be able to feed my kids tonight thanks to you.");
-}
+  
 }
   /*
     action ends
