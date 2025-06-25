@@ -1,6 +1,6 @@
 html, body {
   font-family: sans-serif;
-    background-color: #252525;
+    background-color: #383838;
   }
 
   div.logo {
@@ -26,7 +26,7 @@ html, body {
           list-style-type: none;
           padding: 0;
           overflow: hidden;
-          background-color: #3a3a3a;
+          background-color: #252525;
         }
         
         li {
@@ -123,4 +123,3 @@ button {
 button:hover {
   background-color: #0056b3;
 }
-
