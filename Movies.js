@@ -13,47 +13,14 @@ function start() {
   let fantasyPrice = 5;
   let familyFriendlyPrice = 8;
 
-
-
-
+alert("you chose" +)
+}
 
   /*
   Action starting
   */
-  var userMovie = prompt("What movie do you want? \n \nAction: " + action + "\n \nComedy: " + comedy + "\n \nRomCom: " + romcom + "\n \nHorror: " + horror + "\n \nFantasy: " + fantasy + "\n \nFamily Friendly: " + familyfriendly);
 
-  console.log("first ask result: " + userMovie)
-  while (userMovie !== "Terminator" && userMovie !== "John Wick" && userMovie !== "Transformers" && userMovie !== "Die Hard" && userMovie !== "Bad Boys" && userMovie !== "Commando" && userMovie !== "Top Gun" && userMovie !== "Ace Ventura: Pet Detective" && userMovie !== "The Mask" && userMovie !== "The Cable Guy" && userMovie !== "Dumb and Dumber" && userMovie !== "Lair Lair" && userMovie !== "Me, Myself and Irene" && userMovie !== "Bruce Almighty" && userMovie == null || userMovie == "" || userMovie == " ") {
-    userMovie = prompt("Either you typed the name incorrectly or we don't have that movie, please choose one of these here movies.\n \nAction:" + action + "\n \nComedy:" + comedy + "\n \nRomCom:" + romcom + "\n \nHorror:" + Horror + "\n \nFantasy:" + fantasy + "\n \nFamily Friendly:" + familyfriendly)
-    console.log("while trap: " + userMovie)
-  }
 
-  console.log("Checking: " + userMovie);
-  if (action.includes(userMovie)) {
-    alert("You are now renting the action movie: \n" + userMovie + "\nPrice:" +actionPrice);
-  }
-
-  if (comedy.includes(userMovie)) {
-    userMovie = alert("You are now renting the comedy movie: \n" + userMovie + "\nPrice:" +comedyPrice);
-  }
-
-  if (romcom.includes(userMovie)) {
-    userMovie = alert("You are now renting the RomCom movie: \n" + userMovie + "\nPrice:" +romcomPrice);
-  }
-
-  if (horror.includes(userMovie)) {
-    userMovie = alert("You are now renting the Horror movie: \n" + userMovie + "\nPrice:" +horrorPrice);
-  }
-
-  if (fantasy.includes(userMovie)) {
-    userMovie = alert("You are now renting the Fantasy movie: \n" + userMovie + "\nPrice:" +fantasyPrice);
-  }
-
-  if (familyfriendly.includes(userMovie)) {
-    userMovie = alert("You are now renting the Family Friendly movie: \n" + userMovie + "\nPrice:" +familyFriendlyPrice);
-  }
-  
-}
   /*
     action ends
   */
