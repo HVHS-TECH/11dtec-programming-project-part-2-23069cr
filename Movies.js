@@ -39,10 +39,26 @@ const value = genres.value;
      alert(message)
   }
 
-if(value == "horror"){
+  if(value == "horror"){
     let message = "You chose " +genres.value+ " here are the movies:"
      for (i = 0; i < horror.length; i++) {
     message = message + "\nMovie " + i +" is " +horror[i];
+     }
+     alert(message)
+  }
+
+  if(value == "fantasy"){
+    let message = "You chose " +genres.value+ " here are the movies:"
+     for (i = 0; i < fantasy.length; i++) {
+    message = message + "\nMovie " + i +" is " +fantasy[i];
+     }
+     alert(message)
+  }
+
+  if(value == "familyfriendly"){
+    let message = "You chose " +genres.value+ " here are the movies:"
+     for (i = 0; i < familyfriendly.length; i++) {
+    message = message + "\nMovie " + i +" is " +familyfriendly[i];
      }
      alert(message)
   }
