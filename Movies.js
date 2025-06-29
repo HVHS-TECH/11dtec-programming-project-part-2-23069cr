@@ -39,6 +39,14 @@ const value = genres.value;
      alert(message)
   }
 
+if(value == "horror"){
+    let message = "You chose " +genres.value+ " here are the movies:"
+     for (i = 0; i < horror.length; i++) {
+    message = message + "\nMovie " + i +" is " +horror[i];
+     }
+     alert(message)
+  }
+
 }
 
 
