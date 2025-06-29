@@ -20,6 +20,14 @@ function start() {
      }
      alert(message)
     }
+
+  if(value = "comedy"){
+    let message = "You chose " +genres.value+ " here are the movies:"
+     for (i = 0; i < comedy.length; i++) {
+    message = message + "\nMovie " + i +" is " +comedy[i];
+     }
+     alert(message)
+    }
 }
 
 
