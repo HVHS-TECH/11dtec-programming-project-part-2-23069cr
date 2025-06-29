@@ -13,11 +13,13 @@ function start() {
   let fantasyPrice = 5;
   let familyFriendlyPrice = 8;
 
-  if(let message = "You chose " +genres.value+ " here are the movies:"
+  if(value = "action"){
+    let message = "You chose " +genres.value+ " here are the movies:"
      for (i = 0; i < action.length; i++) {
     message = message + "\nMovie " + i +" is " +action[i];
      }
      alert(message)
+    }
 }
 
 
