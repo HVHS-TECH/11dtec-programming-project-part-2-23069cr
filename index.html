@@ -56,18 +56,19 @@
     </div> 
   </div>
 
-
-  <label for="genres">Choose your movie genre:</label>
-  <select id="genres" name="genres">
+ <form id="genreForm">
+    <label for="genreSelect">Choose your movie genre:</label>
+    <select id="genreSelect">
       <option value="action">Action</option>
       <option value="comedy">Comedy</option>
       <option value="romcom">RomCom</option>
       <option value="horror">Horror</option>
       <option value="fantasy">Fantasy</option>
       <option value="familyfriendly">Family Friendly</option>
-      
-      <input type="submit" onclick="start()">
-  </select>
+    </select>
+    <input type="submit" value="Submit">
+  </form>
+
 
   
   <script src="Movies.js"></script>
