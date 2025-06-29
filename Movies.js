@@ -1,23 +1,47 @@
 function start() {
-  let genre = ["Action", "Comedy", "RomCom", "Horror", "Fantasy", "Family Friendly"]
-  let action = ["Terminator", "John Wick", "Transformers", "Die Hard", "Bad Boys", "Commando", "Top Gun"];
-  let comedy = ["Ace Ventura: Pet Detective", "The Mask", "The Cable Guy", "Dumb and Dumber", "Lair Lair", "Me, Myself and Irene", "Bruce Almighty"];
-  let romcom = ["Pretty Woman", "The Proposal", "Love Actually", "Some Like It Hot", "Just like Heaven", "Crazy, Stupid, Love", "10 Thing I Hate About You"];
-  let horror = ["Child's Play", "IT", "Friday The 13th", "Nightmare On Elm Street", "Saw", "Halloween", "The Texas Chainsaw Massacre"];
-  let fantasy = ["Harry Potter and the Prisoner of Azkaban", "The Lord of the Rings: The Fellowship of the Ring", " Labyrinth", "The Never Ending Story", "Wicked", "The World's End", "How To Train Your Dragon"];
-  let familyfriendly = ["Scooby Doo", "Shrek", "The Lion King", "How The Grinch Stole Christmas", "Paddington", "Frozen", "Spider-Man: Into The Spider-Verse"];
-  let actionPrice = 15;
-  let comedyPrice = 10;
-  let romcomPrice = 2;
-  let horrorPrice = 20;
-  let fantasyPrice = 5;
-  let familyFriendlyPrice = 8;
+const genres = [
+      "Action", "Comedy", "RomCom", "Horror", "Fantasy", "Family Friendly"
+    ];
 
-  let message = "You chose " +genres.value+ " here are the movies:"
-     for (i = 0; i < action.length; i++) {
-    message = message + "\nMovie " + i +" is " +action[i];
-     }
-     alert(message)
+    const movies = {
+      Action: ["Terminator", "John Wick", "Transformers", "Die Hard", "Bad Boys", "Commando", "Top Gun"],
+      Comedy: ["Ace Ventura", "The Mask", "Dumb and Dumber", "Bruce Almighty"],
+      RomCom: ["Pretty Woman", "Love Actually", "Just like Heaven", "10 Thing I Hate About You"],
+      Horror: ["IT", "Saw", "Halloween", "The Texas Chainsaw Massacre"],
+      Fantasy: ["Harry Potter", "Lord of the Rings", "Wicked"],
+      "Family Friendly": ["Scooby Doo", "Shrek", "Frozen", "Paddington"]
+    };
+
+    const prices = {
+      Action: 15,
+      Comedy: 10,
+      RomCom: 2,
+      Horror: 20,
+      Fantasy: 5,
+      "Family Friendly": 8
+    };
+
+    const genreSelect = document.getElementById("genreSelect");
+
+    // Fill dropdown
+    genres.forEach(g => {
+      const option = document.createElement("option");
+      option.value = g;
+      option.textContent = g;
+      genreSelect.appendChild(option);
+    });
+
+    document.getElementById("genreForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      const input = prompt("Enter a genre (e.g., Horror, Fantasy):");
+
+      if (input && genres.some(g => g.toLowerCase() === input.toLowerCase())) {
+        const matched = genres.find(g => g.toLowerCase() === input.toLowerCase());
+        genreSelect.value = matched;
+      } else {
+        alert("Genre not found.");
+      }
+    });
 }
 
 
