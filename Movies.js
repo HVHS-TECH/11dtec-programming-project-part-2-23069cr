@@ -13,6 +13,8 @@ function start() {
   let fantasyPrice = 5;
   let familyFriendlyPrice = 8;
 
+const value = genres.value;
+
   if(value == "action"){
     let message = "You chose " +genres.value+ " here are the movies:"
      for (i = 0; i < action.length; i++) {
@@ -21,6 +23,21 @@ function start() {
      alert(message)
   }
 
+ if(value == "comedy"){
+    let message = "You chose " +genres.value+ " here are the movies:"
+     for (i = 0; i < comedy.length; i++) {
+    message = message + "\nMovie " + i +" is " +comedy[i];
+     }
+     alert(message)
+  }
+
+ if(value == "romcom"){
+    let message = "You chose " +genres.value+ " here are the movies:"
+     for (i = 0; i < romcom.length; i++) {
+    message = message + "\nMovie " + i +" is " +romcom[i];
+     }
+     alert(message)
+  }
 
 }
 
